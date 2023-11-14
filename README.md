@@ -12,3 +12,7 @@ This repo is WIP and for study use only.
 
 ## Development Log
 2023/11/13 -- Model sharding ready, tested GPT2 on 8 GPUs.
+
+| Model size | TP | PP | DP | Model FLOPs Utilization |
+|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+|    124M     |         |        |         |       |
