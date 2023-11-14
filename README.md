@@ -1,7 +1,7 @@
 # simple3DParallel
 
 S3DP(simple 3d parallel) aims at implementing data parallel, tensor parallel and pipeline parallel for efficient distributed LLM training.
-Inspired by Megatron-LM, we want to provide a simple/minimal framework for people with no experience on distribued training so that they can understand it's basics.
+Inspired by Megatron-LM, we want to provide a simple/minimal framework for people with no experience on distribued training so that they can understand its basics.
 
 #### Features of S3DP
 - Sticking to native PyTorch and Huggingface APIs as much as possible.
