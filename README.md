@@ -14,8 +14,10 @@ just run `sh train.sh`
 This repo is WIP and for study use only.
 
 ## Development Log
-2023/11/13 -- Model sharding ready, tested GPT2 on 8 GPUs.
+2023/11/13 -- Model sharding ready, tested GPT2 on 8 GPUs.  
 2023/12/16 -- Pipeline parallelism forward pass ready. Tested GPT2 model on V100 node(6 gpus) with pp size=6(since GPT2 has 12 blocks, placing 2 blocks on each gpu).
+Logs you should see:
+![image](https://github.com/ilml/simple3DParallel/assets/18288209/e23b9b02-bc55-42c0-90e9-a056b5d2a85d)
 
 
 | Model size | TP | PP | DP | Model FLOPs Utilization |
